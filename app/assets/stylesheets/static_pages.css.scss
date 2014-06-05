@@ -16,7 +16,6 @@ html {
 body {
   padding-top: 0px;
   background-color: #FAFAFA;
-
 }
 
 section {
@@ -33,6 +32,11 @@ textarea {
   h1 {
   margin-bottom: 10px;
   }
+}
+
+#table_align_fix {
+  position: relative;
+  left: 105px;
 }
 
 /* typography */
@@ -83,6 +87,36 @@ hr {
 
 .name-border {
    background:black; border:0; height:1px
+}
+
+#main_header {
+  font-size: 70px;
+}
+
+#sub_header_1 {
+  font-size: 40px;
+  font-style:italic;
+}
+
+#sub_header_2 {
+  font-size: 30px;
+}
+
+#width_header_1 {
+  width: 710px;
+  margin: 0 auto;
+}
+
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+
+#sub_header_1_position {
+  position: relative;
+  left: 145px;
 }
 
 /* Footer */
