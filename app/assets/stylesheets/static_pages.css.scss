@@ -128,11 +128,17 @@ h4 {
     width: 330px;
   }
 
+  .mobile_table_fix {
+    position: relative;
+    right: 25px;
+  }
+
 }
 
 .height_fix {
   position: relative;
   top: 20px;
+  right: 30px;
 }
 
 
@@ -157,7 +163,7 @@ hr {
 
 #contact_fix {
   position: relative;
-  right: 40px;
+  right: 60px;
 }
 
 .alignleft {
