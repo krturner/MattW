@@ -70,16 +70,21 @@ h4 {
 
 }
 
-@media (min-width: 780px) {
+@media (min-width: 750px) {
 
   #main_header {
-    font-size: 70px;
+    font-size: 60px;
     letter-spacing: 3px;
+    text-align: left;
+    padding-left: 34px;
   }
 
   #sub_header_1 {
     font-size: 40px;
     font-style:italic;
+    position: relative;
+    right: 70px;
+    text-align: right;
   }
 
   #sub_header_2 {
@@ -97,7 +102,7 @@ h4 {
 
 }
 
-@media (max-width: 780px) {
+@media (max-width: 750px) {
 
   #main_header {
     font-size: 30px;
@@ -109,6 +114,7 @@ h4 {
     font-style:italic;
     position: relative;
     right: 3px;
+    text-align: right;
   }
 
   #sub_header_2 {
